@@ -9,13 +9,17 @@ Este projeto é um desafio técnico com foco em duas frentes:
 
 Realizar uma análise de cesta de compras (Market Basket Analysis) para identificar associações entre produtos. A proposta é utilizar métricas como suporte e frequência para encontrar itens com maior probabilidade de compra conjunta, apoiando estratégias de recomendação e vendas casadas.
 
-## Tecnologias
+## Linguagem
 
 - Python 3.12 (gerenciado via asdf)
+
+## Bibliotecas Principais
+
 - Pandas (manipulação e tratamento de dados)
 - Streamlit (interface para dashboard)
 - SQLite (persistência de dados processados)
 - GitFlow (gestão de branches e fluxo de trabalho)
+
 
 ## Estrutura do projeto
 
@@ -38,7 +42,3 @@ Realizar uma análise de cesta de compras (Market Basket Analysis) para identifi
 	```
 
 3. Execute os scripts do projeto (carga, análise e dashboard) conforme forem adicionados na pasta `src/`.
-
-## Status atual
-
-O repositório já possui ambiente e dependências definidos. A implementação dos scripts de carga, análise e visualização está em andamento.
