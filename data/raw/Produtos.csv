@@ -1,0 +1,1001 @@
+id_produto,nome_produto,categoria,preco
+1,Produto Esportes 1,Esportes,3789.38
+2,Produto VestuÃ¡rio 2,VestuÃ¡rio,4620.38
+3,Produto EletrÃ´nicos 3,EletrÃ´nicos,666.67
+4,Produto Casa e DecoraÃ§Ã£o 4,Casa e DecoraÃ§Ã£o,858.5
+5,Produto InformÃ¡tica 5,InformÃ¡tica,3662.27
+6,Produto Esportes 6,Esportes,796.25
+7,Produto Esportes 7,Esportes,3153.17
+8,Produto Casa e DecoraÃ§Ã£o 8,Casa e DecoraÃ§Ã£o,1705.02
+9,Produto Beleza 9,Beleza,4548.71
+10,Produto VestuÃ¡rio 10,VestuÃ¡rio,2882.33
+11,Produto Livros 11,Livros,3337.22
+12,Produto Beleza 12,Beleza,4484.41
+13,Produto InformÃ¡tica 13,InformÃ¡tica,2872.68
+14,Produto Esportes 14,Esportes,1507.73
+15,Produto InformÃ¡tica 15,InformÃ¡tica,2476.41
+16,Produto InformÃ¡tica 16,InformÃ¡tica,4093.32
+17,Produto Casa e DecoraÃ§Ã£o 17,Casa e DecoraÃ§Ã£o,4229.21
+18,Produto Esportes 18,Esportes,4359.63
+19,Produto Beleza 19,Beleza,3829.57
+20,Produto InformÃ¡tica 20,InformÃ¡tica,1732.71
+21,Produto EletrÃ´nicos 21,EletrÃ´nicos,3448.12
+22,Produto VestuÃ¡rio 22,VestuÃ¡rio,3926.13
+23,Produto EletrÃ´nicos 23,EletrÃ´nicos,4636.57
+24,Produto EletrÃ´nicos 24,EletrÃ´nicos,3093.89
+25,Produto Esportes 25,Esportes,3208.08
+26,Produto VestuÃ¡rio 26,VestuÃ¡rio,2155.08
+27,Produto VestuÃ¡rio 27,VestuÃ¡rio,1539.71
+28,Produto EletrÃ´nicos 28,EletrÃ´nicos,1819.04
+29,Produto Beleza 29,Beleza,4707.39
+30,Produto EletrÃ´nicos 30,EletrÃ´nicos,1001.94
+31,Produto Livros 31,Livros,130.31
+32,Produto InformÃ¡tica 32,InformÃ¡tica,2477.91
+33,Produto EletrÃ´nicos 33,EletrÃ´nicos,1101.93
+34,Produto Beleza 34,Beleza,4000.44
+35,Produto EletrÃ´nicos 35,EletrÃ´nicos,3403.54
+36,Produto EletrÃ´nicos 36,EletrÃ´nicos,3378.76
+37,Produto VestuÃ¡rio 37,VestuÃ¡rio,1283.38
+38,Produto EletrÃ´nicos 38,EletrÃ´nicos,1956.63
+39,Produto VestuÃ¡rio 39,VestuÃ¡rio,277.85
+40,Produto Esportes 40,Esportes,1525.15
+41,Produto Esportes 41,Esportes,2392.71
+42,Produto Livros 42,Livros,4256.22
+43,Produto Livros 43,Livros,2666.17
+44,Produto VestuÃ¡rio 44,VestuÃ¡rio,3415.2
+45,Produto Beleza 45,Beleza,913.15
+46,Produto Beleza 46,Beleza,3791.18
+47,Produto EletrÃ´nicos 47,EletrÃ´nicos,1996.76
+48,Produto Esportes 48,Esportes,1201.09
+49,Produto Beleza 49,Beleza,227.79
+50,Produto Livros 50,Livros,4418.64
+51,Produto Livros 51,Livros,168.2
+52,Produto Livros 52,Livros,3950.68
+53,Produto EletrÃ´nicos 53,EletrÃ´nicos,827.69
+54,Produto EletrÃ´nicos 54,EletrÃ´nicos,683.69
+55,Produto Beleza 55,Beleza,1558.08
+56,Produto Livros 56,Livros,2262.05
+57,Produto InformÃ¡tica 57,InformÃ¡tica,2542.56
+58,Produto Esportes 58,Esportes,199.44
+59,Produto Casa e DecoraÃ§Ã£o 59,Casa e DecoraÃ§Ã£o,1186.59
+60,Produto InformÃ¡tica 60,InformÃ¡tica,1194.75
+61,Produto InformÃ¡tica 61,InformÃ¡tica,2659.46
+62,Produto EletrÃ´nicos 62,EletrÃ´nicos,29.81
+63,Produto Livros 63,Livros,1484.48
+64,Produto Beleza 64,Beleza,365.99
+65,Produto Beleza 65,Beleza,1021.05
+66,Produto Livros 66,Livros,2923.71
+67,Produto Livros 67,Livros,827.46
+68,Produto VestuÃ¡rio 68,VestuÃ¡rio,393.44
+69,Produto Esportes 69,Esportes,1674.94
+70,Produto VestuÃ¡rio 70,VestuÃ¡rio,4059.71
+71,Produto InformÃ¡tica 71,InformÃ¡tica,4288.84
+72,Produto Beleza 72,Beleza,3688.49
+73,Produto InformÃ¡tica 73,InformÃ¡tica,4626.43
+74,Produto Beleza 74,Beleza,2743.49
+75,Produto VestuÃ¡rio 75,VestuÃ¡rio,895.9
+76,Produto Casa e DecoraÃ§Ã£o 76,Casa e DecoraÃ§Ã£o,2719.61
+77,Produto Casa e DecoraÃ§Ã£o 77,Casa e DecoraÃ§Ã£o,92.03
+78,Produto InformÃ¡tica 78,InformÃ¡tica,1184.17
+79,Produto VestuÃ¡rio 79,VestuÃ¡rio,999.76
+80,Produto Esportes 80,Esportes,2664.31
+81,Produto Beleza 81,Beleza,1029.14
+82,Produto Livros 82,Livros,69.59
+83,Produto InformÃ¡tica 83,InformÃ¡tica,1137.26
+84,Produto Beleza 84,Beleza,1130.63
+85,Produto Esportes 85,Esportes,786.68
+86,Produto Esportes 86,Esportes,1722.35
+87,Produto InformÃ¡tica 87,InformÃ¡tica,4024.56
+88,Produto InformÃ¡tica 88,InformÃ¡tica,3705.32
+89,Produto VestuÃ¡rio 89,VestuÃ¡rio,4254.66
+90,Produto EletrÃ´nicos 90,EletrÃ´nicos,4572.54
+91,Produto EletrÃ´nicos 91,EletrÃ´nicos,3164.79
+92,Produto Beleza 92,Beleza,2952.81
+93,Produto Esportes 93,Esportes,3154.24
+94,Produto Casa e DecoraÃ§Ã£o 94,Casa e DecoraÃ§Ã£o,2194.79
+95,Produto EletrÃ´nicos 95,EletrÃ´nicos,2066.22
+96,Produto Livros 96,Livros,914.63
+97,Produto Livros 97,Livros,3151.6
+98,Produto Livros 98,Livros,1126.52
+99,Produto VestuÃ¡rio 99,VestuÃ¡rio,2009.52
+100,Produto EletrÃ´nicos 100,EletrÃ´nicos,4729.6
+101,Produto Casa e DecoraÃ§Ã£o 101,Casa e DecoraÃ§Ã£o,1398.13
+102,Produto Beleza 102,Beleza,174.23
+103,Produto EletrÃ´nicos 103,EletrÃ´nicos,4794.48
+104,Produto Livros 104,Livros,1510.34
+105,Produto EletrÃ´nicos 105,EletrÃ´nicos,1389.82
+106,Produto Esportes 106,Esportes,4063.04
+107,Produto Beleza 107,Beleza,3616.28
+108,Produto Esportes 108,Esportes,356.41
+109,Produto InformÃ¡tica 109,InformÃ¡tica,1230.11
+110,Produto EletrÃ´nicos 110,EletrÃ´nicos,1719.26
+111,Produto EletrÃ´nicos 111,EletrÃ´nicos,893.47
+112,Produto VestuÃ¡rio 112,VestuÃ¡rio,4275.15
+113,Produto VestuÃ¡rio 113,VestuÃ¡rio,758.83
+114,Produto Livros 114,Livros,4467.94
+115,Produto Beleza 115,Beleza,1080.19
+116,Produto Casa e DecoraÃ§Ã£o 116,Casa e DecoraÃ§Ã£o,3864.75
+117,Produto VestuÃ¡rio 117,VestuÃ¡rio,2948.6
+118,Produto Casa e DecoraÃ§Ã£o 118,Casa e DecoraÃ§Ã£o,1283.87
+119,Produto Livros 119,Livros,4244.56
+120,Produto Beleza 120,Beleza,1250.71
+121,Produto EletrÃ´nicos 121,EletrÃ´nicos,324.69
+122,Produto Livros 122,Livros,339.32
+123,Produto Casa e DecoraÃ§Ã£o 123,Casa e DecoraÃ§Ã£o,495.16
+124,Produto EletrÃ´nicos 124,EletrÃ´nicos,2476.32
+125,Produto EletrÃ´nicos 125,EletrÃ´nicos,1424.1
+126,Produto Livros 126,Livros,1316.71
+127,Produto EletrÃ´nicos 127,EletrÃ´nicos,65.42
+128,Produto Livros 128,Livros,3958.08
+129,Produto Livros 129,Livros,725.72
+130,Produto Beleza 130,Beleza,1818.73
+131,Produto EletrÃ´nicos 131,EletrÃ´nicos,3802.51
+132,Produto VestuÃ¡rio 132,VestuÃ¡rio,3646.73
+133,Produto Esportes 133,Esportes,4071.52
+134,Produto InformÃ¡tica 134,InformÃ¡tica,3007.35
+135,Produto Esportes 135,Esportes,4416.19
+136,Produto Beleza 136,Beleza,1252.19
+137,Produto Livros 137,Livros,1215.93
+138,Produto VestuÃ¡rio 138,VestuÃ¡rio,271.59
+139,Produto VestuÃ¡rio 139,VestuÃ¡rio,3004.03
+140,Produto Esportes 140,Esportes,1785.05
+141,Produto Esportes 141,Esportes,3671.53
+142,Produto Beleza 142,Beleza,3784.55
+143,Produto Beleza 143,Beleza,67.22
+144,Produto Esportes 144,Esportes,4514.95
+145,Produto InformÃ¡tica 145,InformÃ¡tica,2438.42
+146,Produto InformÃ¡tica 146,InformÃ¡tica,1316.78
+147,Produto VestuÃ¡rio 147,VestuÃ¡rio,4768.29
+148,Produto Casa e DecoraÃ§Ã£o 148,Casa e DecoraÃ§Ã£o,1952.13
+149,Produto EletrÃ´nicos 149,EletrÃ´nicos,60.73
+150,Produto EletrÃ´nicos 150,EletrÃ´nicos,425.46
+151,Produto VestuÃ¡rio 151,VestuÃ¡rio,1164.16
+152,Produto InformÃ¡tica 152,InformÃ¡tica,3505.15
+153,Produto Livros 153,Livros,2579.61
+154,Produto Casa e DecoraÃ§Ã£o 154,Casa e DecoraÃ§Ã£o,4366.78
+155,Produto InformÃ¡tica 155,InformÃ¡tica,2579.69
+156,Produto VestuÃ¡rio 156,VestuÃ¡rio,3026.3
+157,Produto VestuÃ¡rio 157,VestuÃ¡rio,706.05
+158,Produto Casa e DecoraÃ§Ã£o 158,Casa e DecoraÃ§Ã£o,1031.43
+159,Produto Beleza 159,Beleza,3000.65
+160,Produto Beleza 160,Beleza,346.7
+161,Produto Livros 161,Livros,1392.0
+162,Produto InformÃ¡tica 162,InformÃ¡tica,3256.34
+163,Produto InformÃ¡tica 163,InformÃ¡tica,2713.58
+164,Produto InformÃ¡tica 164,InformÃ¡tica,3846.06
+165,Produto Beleza 165,Beleza,1298.33
+166,Produto InformÃ¡tica 166,InformÃ¡tica,4502.53
+167,Produto EletrÃ´nicos 167,EletrÃ´nicos,1747.62
+168,Produto Esportes 168,Esportes,262.17
+169,Produto Esportes 169,Esportes,4299.37
+170,Produto InformÃ¡tica 170,InformÃ¡tica,1395.33
+171,Produto InformÃ¡tica 171,InformÃ¡tica,4592.58
+172,Produto VestuÃ¡rio 172,VestuÃ¡rio,4367.1
+173,Produto Livros 173,Livros,4404.81
+174,Produto InformÃ¡tica 174,InformÃ¡tica,3115.92
+175,Produto EletrÃ´nicos 175,EletrÃ´nicos,663.88
+176,Produto Beleza 176,Beleza,4558.19
+177,Produto Esportes 177,Esportes,2785.3
+178,Produto InformÃ¡tica 178,InformÃ¡tica,1903.81
+179,Produto Beleza 179,Beleza,1857.89
+180,Produto Esportes 180,Esportes,1506.64
+181,Produto InformÃ¡tica 181,InformÃ¡tica,1263.05
+182,Produto EletrÃ´nicos 182,EletrÃ´nicos,332.53
+183,Produto VestuÃ¡rio 183,VestuÃ¡rio,3070.62
+184,Produto Esportes 184,Esportes,1296.51
+185,Produto Livros 185,Livros,1822.18
+186,Produto VestuÃ¡rio 186,VestuÃ¡rio,2831.7
+187,Produto Beleza 187,Beleza,645.2
+188,Produto Livros 188,Livros,2322.62
+189,Produto InformÃ¡tica 189,InformÃ¡tica,2211.61
+190,Produto InformÃ¡tica 190,InformÃ¡tica,1952.78
+191,Produto Beleza 191,Beleza,4102.18
+192,Produto VestuÃ¡rio 192,VestuÃ¡rio,1786.18
+193,Produto VestuÃ¡rio 193,VestuÃ¡rio,1422.25
+194,Produto Casa e DecoraÃ§Ã£o 194,Casa e DecoraÃ§Ã£o,893.21
+195,Produto Beleza 195,Beleza,2175.71
+196,Produto EletrÃ´nicos 196,EletrÃ´nicos,3917.23
+197,Produto Beleza 197,Beleza,3459.76
+198,Produto InformÃ¡tica 198,InformÃ¡tica,1592.08
+199,Produto EletrÃ´nicos 199,EletrÃ´nicos,1863.18
+200,Produto Esportes 200,Esportes,2568.3
+201,Produto InformÃ¡tica 201,InformÃ¡tica,3252.9
+202,Produto Beleza 202,Beleza,2168.48
+203,Produto InformÃ¡tica 203,InformÃ¡tica,22.17
+204,Produto EletrÃ´nicos 204,EletrÃ´nicos,758.06
+205,Produto Casa e DecoraÃ§Ã£o 205,Casa e DecoraÃ§Ã£o,1200.59
+206,Produto Casa e DecoraÃ§Ã£o 206,Casa e DecoraÃ§Ã£o,4904.61
+207,Produto EletrÃ´nicos 207,EletrÃ´nicos,1162.63
+208,Produto InformÃ¡tica 208,InformÃ¡tica,1121.92
+209,Produto Beleza 209,Beleza,3813.8
+210,Produto Livros 210,Livros,703.64
+211,Produto Esportes 211,Esportes,423.44
+212,Produto Casa e DecoraÃ§Ã£o 212,Casa e DecoraÃ§Ã£o,1828.98
+213,Produto VestuÃ¡rio 213,VestuÃ¡rio,3166.23
+214,Produto VestuÃ¡rio 214,VestuÃ¡rio,3122.06
+215,Produto VestuÃ¡rio 215,VestuÃ¡rio,4301.26
+216,Produto Casa e DecoraÃ§Ã£o 216,Casa e DecoraÃ§Ã£o,3490.06
+217,Produto InformÃ¡tica 217,InformÃ¡tica,2978.25
+218,Produto Livros 218,Livros,3504.43
+219,Produto Beleza 219,Beleza,4706.23
+220,Produto Livros 220,Livros,4539.14
+221,Produto InformÃ¡tica 221,InformÃ¡tica,3864.79
+222,Produto Casa e DecoraÃ§Ã£o 222,Casa e DecoraÃ§Ã£o,2999.51
+223,Produto VestuÃ¡rio 223,VestuÃ¡rio,2203.44
+224,Produto Livros 224,Livros,2573.21
+225,Produto Livros 225,Livros,3934.32
+226,Produto Livros 226,Livros,1005.01
+227,Produto Livros 227,Livros,129.84
+228,Produto Casa e DecoraÃ§Ã£o 228,Casa e DecoraÃ§Ã£o,1225.75
+229,Produto Beleza 229,Beleza,2746.71
+230,Produto EletrÃ´nicos 230,EletrÃ´nicos,1139.0
+231,Produto Livros 231,Livros,1136.98
+232,Produto InformÃ¡tica 232,InformÃ¡tica,4081.67
+233,Produto EletrÃ´nicos 233,EletrÃ´nicos,4904.38
+234,Produto Livros 234,Livros,3753.88
+235,Produto VestuÃ¡rio 235,VestuÃ¡rio,1319.96
+236,Produto VestuÃ¡rio 236,VestuÃ¡rio,2073.46
+237,Produto InformÃ¡tica 237,InformÃ¡tica,506.85
+238,Produto EletrÃ´nicos 238,EletrÃ´nicos,4838.19
+239,Produto EletrÃ´nicos 239,EletrÃ´nicos,684.52
+240,Produto Esportes 240,Esportes,2692.13
+241,Produto VestuÃ¡rio 241,VestuÃ¡rio,2394.88
+242,Produto VestuÃ¡rio 242,VestuÃ¡rio,3081.34
+243,Produto VestuÃ¡rio 243,VestuÃ¡rio,1494.44
+244,Produto InformÃ¡tica 244,InformÃ¡tica,3287.69
+245,Produto EletrÃ´nicos 245,EletrÃ´nicos,569.55
+246,Produto EletrÃ´nicos 246,EletrÃ´nicos,4153.67
+247,Produto Beleza 247,Beleza,1486.48
+248,Produto EletrÃ´nicos 248,EletrÃ´nicos,3375.52
+249,Produto Esportes 249,Esportes,214.92
+250,Produto InformÃ¡tica 250,InformÃ¡tica,2648.71
+251,Produto VestuÃ¡rio 251,VestuÃ¡rio,1855.06
+252,Produto Beleza 252,Beleza,238.93
+253,Produto Livros 253,Livros,1291.64
+254,Produto Livros 254,Livros,4597.99
+255,Produto Casa e DecoraÃ§Ã£o 255,Casa e DecoraÃ§Ã£o,184.94
+256,Produto InformÃ¡tica 256,InformÃ¡tica,2501.1
+257,Produto EletrÃ´nicos 257,EletrÃ´nicos,2333.81
+258,Produto EletrÃ´nicos 258,EletrÃ´nicos,1050.19
+259,Produto Livros 259,Livros,555.84
+260,Produto Beleza 260,Beleza,2604.04
+261,Produto VestuÃ¡rio 261,VestuÃ¡rio,348.57
+262,Produto VestuÃ¡rio 262,VestuÃ¡rio,3321.24
+263,Produto EletrÃ´nicos 263,EletrÃ´nicos,3382.32
+264,Produto Livros 264,Livros,336.1
+265,Produto Esportes 265,Esportes,3261.03
+266,Produto Beleza 266,Beleza,1494.19
+267,Produto VestuÃ¡rio 267,VestuÃ¡rio,3710.39
+268,Produto Esportes 268,Esportes,1005.59
+269,Produto VestuÃ¡rio 269,VestuÃ¡rio,3630.31
+270,Produto InformÃ¡tica 270,InformÃ¡tica,2299.47
+271,Produto Livros 271,Livros,3292.71
+272,Produto EletrÃ´nicos 272,EletrÃ´nicos,4183.83
+273,Produto Casa e DecoraÃ§Ã£o 273,Casa e DecoraÃ§Ã£o,1311.66
+274,Produto Casa e DecoraÃ§Ã£o 274,Casa e DecoraÃ§Ã£o,4185.08
+275,Produto Casa e DecoraÃ§Ã£o 275,Casa e DecoraÃ§Ã£o,4202.97
+276,Produto EletrÃ´nicos 276,EletrÃ´nicos,1385.24
+277,Produto InformÃ¡tica 277,InformÃ¡tica,3338.7
+278,Produto Livros 278,Livros,1315.12
+279,Produto Esportes 279,Esportes,300.15
+280,Produto VestuÃ¡rio 280,VestuÃ¡rio,4630.16
+281,Produto Casa e DecoraÃ§Ã£o 281,Casa e DecoraÃ§Ã£o,131.69
+282,Produto Beleza 282,Beleza,248.16
+283,Produto EletrÃ´nicos 283,EletrÃ´nicos,4720.31
+284,Produto EletrÃ´nicos 284,EletrÃ´nicos,3211.16
+285,Produto Beleza 285,Beleza,1590.21
+286,Produto VestuÃ¡rio 286,VestuÃ¡rio,813.09
+287,Produto EletrÃ´nicos 287,EletrÃ´nicos,3426.9
+288,Produto VestuÃ¡rio 288,VestuÃ¡rio,3903.01
+289,Produto InformÃ¡tica 289,InformÃ¡tica,1995.52
+290,Produto Livros 290,Livros,2318.21
+291,Produto EletrÃ´nicos 291,EletrÃ´nicos,4645.42
+292,Produto Beleza 292,Beleza,1945.34
+293,Produto Livros 293,Livros,1452.34
+294,Produto EletrÃ´nicos 294,EletrÃ´nicos,3268.28
+295,Produto Esportes 295,Esportes,3437.1
+296,Produto EletrÃ´nicos 296,EletrÃ´nicos,3121.33
+297,Produto InformÃ¡tica 297,InformÃ¡tica,2424.22
+298,Produto Esportes 298,Esportes,1808.09
+299,Produto Esportes 299,Esportes,4895.78
+300,Produto EletrÃ´nicos 300,EletrÃ´nicos,4712.96
+301,Produto EletrÃ´nicos 301,EletrÃ´nicos,4588.59
+302,Produto EletrÃ´nicos 302,EletrÃ´nicos,3383.42
+303,Produto Casa e DecoraÃ§Ã£o 303,Casa e DecoraÃ§Ã£o,4631.47
+304,Produto Livros 304,Livros,1412.75
+305,Produto Casa e DecoraÃ§Ã£o 305,Casa e DecoraÃ§Ã£o,47.43
+306,Produto Beleza 306,Beleza,4399.53
+307,Produto Esportes 307,Esportes,920.28
+308,Produto Esportes 308,Esportes,551.17
+309,Produto Casa e DecoraÃ§Ã£o 309,Casa e DecoraÃ§Ã£o,1797.63
+310,Produto VestuÃ¡rio 310,VestuÃ¡rio,1168.16
+311,Produto VestuÃ¡rio 311,VestuÃ¡rio,3499.77
+312,Produto Casa e DecoraÃ§Ã£o 312,Casa e DecoraÃ§Ã£o,2488.24
+313,Produto Esportes 313,Esportes,4848.88
+314,Produto Casa e DecoraÃ§Ã£o 314,Casa e DecoraÃ§Ã£o,2462.62
+315,Produto InformÃ¡tica 315,InformÃ¡tica,1176.2
+316,Produto InformÃ¡tica 316,InformÃ¡tica,1588.09
+317,Produto EletrÃ´nicos 317,EletrÃ´nicos,514.9
+318,Produto VestuÃ¡rio 318,VestuÃ¡rio,4257.73
+319,Produto VestuÃ¡rio 319,VestuÃ¡rio,2849.05
+320,Produto Casa e DecoraÃ§Ã£o 320,Casa e DecoraÃ§Ã£o,2177.33
+321,Produto InformÃ¡tica 321,InformÃ¡tica,4633.83
+322,Produto Esportes 322,Esportes,3440.34
+323,Produto VestuÃ¡rio 323,VestuÃ¡rio,1060.54
+324,Produto InformÃ¡tica 324,InformÃ¡tica,4150.07
+325,Produto InformÃ¡tica 325,InformÃ¡tica,346.29
+326,Produto Livros 326,Livros,2217.76
+327,Produto VestuÃ¡rio 327,VestuÃ¡rio,3088.55
+328,Produto VestuÃ¡rio 328,VestuÃ¡rio,1892.48
+329,Produto Esportes 329,Esportes,1430.03
+330,Produto VestuÃ¡rio 330,VestuÃ¡rio,3734.21
+331,Produto EletrÃ´nicos 331,EletrÃ´nicos,1653.73
+332,Produto Livros 332,Livros,1830.43
+333,Produto InformÃ¡tica 333,InformÃ¡tica,265.78
+334,Produto InformÃ¡tica 334,InformÃ¡tica,3257.74
+335,Produto Casa e DecoraÃ§Ã£o 335,Casa e DecoraÃ§Ã£o,4940.75
+336,Produto EletrÃ´nicos 336,EletrÃ´nicos,3466.53
+337,Produto Casa e DecoraÃ§Ã£o 337,Casa e DecoraÃ§Ã£o,3423.05
+338,Produto Casa e DecoraÃ§Ã£o 338,Casa e DecoraÃ§Ã£o,2330.99
+339,Produto VestuÃ¡rio 339,VestuÃ¡rio,2609.25
+340,Produto InformÃ¡tica 340,InformÃ¡tica,1991.99
+341,Produto Livros 341,Livros,3104.26
+342,Produto Casa e DecoraÃ§Ã£o 342,Casa e DecoraÃ§Ã£o,4995.52
+343,Produto Livros 343,Livros,1946.52
+344,Produto Esportes 344,Esportes,4410.42
+345,Produto EletrÃ´nicos 345,EletrÃ´nicos,3135.75
+346,Produto VestuÃ¡rio 346,VestuÃ¡rio,1761.05
+347,Produto Beleza 347,Beleza,895.74
+348,Produto InformÃ¡tica 348,InformÃ¡tica,2031.88
+349,Produto InformÃ¡tica 349,InformÃ¡tica,1265.92
+350,Produto InformÃ¡tica 350,InformÃ¡tica,562.66
+351,Produto VestuÃ¡rio 351,VestuÃ¡rio,1592.08
+352,Produto InformÃ¡tica 352,InformÃ¡tica,3093.73
+353,Produto EletrÃ´nicos 353,EletrÃ´nicos,4121.58
+354,Produto Beleza 354,Beleza,781.13
+355,Produto Casa e DecoraÃ§Ã£o 355,Casa e DecoraÃ§Ã£o,691.41
+356,Produto VestuÃ¡rio 356,VestuÃ¡rio,4392.89
+357,Produto Esportes 357,Esportes,4015.86
+358,Produto Livros 358,Livros,4386.09
+359,Produto Casa e DecoraÃ§Ã£o 359,Casa e DecoraÃ§Ã£o,1374.48
+360,Produto Beleza 360,Beleza,4917.22
+361,Produto Esportes 361,Esportes,4877.59
+362,Produto VestuÃ¡rio 362,VestuÃ¡rio,1946.9
+363,Produto Beleza 363,Beleza,4618.55
+364,Produto Casa e DecoraÃ§Ã£o 364,Casa e DecoraÃ§Ã£o,4497.23
+365,Produto EletrÃ´nicos 365,EletrÃ´nicos,3678.54
+366,Produto Livros 366,Livros,262.64
+367,Produto Casa e DecoraÃ§Ã£o 367,Casa e DecoraÃ§Ã£o,1794.16
+368,Produto VestuÃ¡rio 368,VestuÃ¡rio,2735.74
+369,Produto Esportes 369,Esportes,3182.47
+370,Produto EletrÃ´nicos 370,EletrÃ´nicos,351.88
+371,Produto EletrÃ´nicos 371,EletrÃ´nicos,2746.35
+372,Produto InformÃ¡tica 372,InformÃ¡tica,391.47
+373,Produto InformÃ¡tica 373,InformÃ¡tica,2925.7
+374,Produto VestuÃ¡rio 374,VestuÃ¡rio,4264.9
+375,Produto EletrÃ´nicos 375,EletrÃ´nicos,3353.22
+376,Produto EletrÃ´nicos 376,EletrÃ´nicos,2970.54
+377,Produto Esportes 377,Esportes,1569.35
+378,Produto Esportes 378,Esportes,565.45
+379,Produto Beleza 379,Beleza,597.89
+380,Produto VestuÃ¡rio 380,VestuÃ¡rio,537.6
+381,Produto Casa e DecoraÃ§Ã£o 381,Casa e DecoraÃ§Ã£o,1717.36
+382,Produto Esportes 382,Esportes,3848.32
+383,Produto Esportes 383,Esportes,3986.74
+384,Produto VestuÃ¡rio 384,VestuÃ¡rio,4074.18
+385,Produto Beleza 385,Beleza,1641.97
+386,Produto Beleza 386,Beleza,1108.03
+387,Produto Esportes 387,Esportes,3970.68
+388,Produto Casa e DecoraÃ§Ã£o 388,Casa e DecoraÃ§Ã£o,1292.71
+389,Produto InformÃ¡tica 389,InformÃ¡tica,2739.34
+390,Produto Casa e DecoraÃ§Ã£o 390,Casa e DecoraÃ§Ã£o,4945.08
+391,Produto VestuÃ¡rio 391,VestuÃ¡rio,2692.93
+392,Produto Livros 392,Livros,818.51
+393,Produto EletrÃ´nicos 393,EletrÃ´nicos,1473.33
+394,Produto InformÃ¡tica 394,InformÃ¡tica,3743.09
+395,Produto Esportes 395,Esportes,1354.56
+396,Produto Beleza 396,Beleza,3020.77
+397,Produto InformÃ¡tica 397,InformÃ¡tica,1521.63
+398,Produto InformÃ¡tica 398,InformÃ¡tica,1145.37
+399,Produto Livros 399,Livros,1498.12
+400,Produto Esportes 400,Esportes,503.41
+401,Produto Casa e DecoraÃ§Ã£o 401,Casa e DecoraÃ§Ã£o,1578.2
+402,Produto Livros 402,Livros,2696.6
+403,Produto InformÃ¡tica 403,InformÃ¡tica,775.56
+404,Produto InformÃ¡tica 404,InformÃ¡tica,4536.68
+405,Produto Livros 405,Livros,3619.81
+406,Produto Livros 406,Livros,4646.01
+407,Produto Beleza 407,Beleza,3191.19
+408,Produto Casa e DecoraÃ§Ã£o 408,Casa e DecoraÃ§Ã£o,616.57
+409,Produto Livros 409,Livros,1681.17
+410,Produto Livros 410,Livros,1329.37
+411,Produto Casa e DecoraÃ§Ã£o 411,Casa e DecoraÃ§Ã£o,3414.02
+412,Produto Beleza 412,Beleza,4096.1
+413,Produto VestuÃ¡rio 413,VestuÃ¡rio,2396.57
+414,Produto EletrÃ´nicos 414,EletrÃ´nicos,1323.71
+415,Produto Esportes 415,Esportes,197.12
+416,Produto VestuÃ¡rio 416,VestuÃ¡rio,3346.81
+417,Produto InformÃ¡tica 417,InformÃ¡tica,2292.35
+418,Produto Casa e DecoraÃ§Ã£o 418,Casa e DecoraÃ§Ã£o,1460.58
+419,Produto Livros 419,Livros,3296.62
+420,Produto InformÃ¡tica 420,InformÃ¡tica,853.22
+421,Produto Esportes 421,Esportes,1393.22
+422,Produto Livros 422,Livros,4458.55
+423,Produto Casa e DecoraÃ§Ã£o 423,Casa e DecoraÃ§Ã£o,1053.03
+424,Produto Beleza 424,Beleza,2314.81
+425,Produto Livros 425,Livros,251.53
+426,Produto Livros 426,Livros,1797.97
+427,Produto Esportes 427,Esportes,4463.74
+428,Produto EletrÃ´nicos 428,EletrÃ´nicos,1689.93
+429,Produto EletrÃ´nicos 429,EletrÃ´nicos,3885.37
+430,Produto Esportes 430,Esportes,1342.12
+431,Produto VestuÃ¡rio 431,VestuÃ¡rio,4349.46
+432,Produto Casa e DecoraÃ§Ã£o 432,Casa e DecoraÃ§Ã£o,918.83
+433,Produto Casa e DecoraÃ§Ã£o 433,Casa e DecoraÃ§Ã£o,168.06
+434,Produto Livros 434,Livros,234.75
+435,Produto EletrÃ´nicos 435,EletrÃ´nicos,1117.86
+436,Produto EletrÃ´nicos 436,EletrÃ´nicos,1054.81
+437,Produto EletrÃ´nicos 437,EletrÃ´nicos,3742.31
+438,Produto Beleza 438,Beleza,914.02
+439,Produto Esportes 439,Esportes,1740.74
+440,Produto EletrÃ´nicos 440,EletrÃ´nicos,2833.7
+441,Produto EletrÃ´nicos 441,EletrÃ´nicos,3018.51
+442,Produto VestuÃ¡rio 442,VestuÃ¡rio,4295.3
+443,Produto Casa e DecoraÃ§Ã£o 443,Casa e DecoraÃ§Ã£o,739.82
+444,Produto InformÃ¡tica 444,InformÃ¡tica,2449.88
+445,Produto Livros 445,Livros,749.15
+446,Produto InformÃ¡tica 446,InformÃ¡tica,880.58
+447,Produto Beleza 447,Beleza,3976.03
+448,Produto VestuÃ¡rio 448,VestuÃ¡rio,717.57
+449,Produto VestuÃ¡rio 449,VestuÃ¡rio,4649.81
+450,Produto Livros 450,Livros,2717.6
+451,Produto Esportes 451,Esportes,3853.02
+452,Produto VestuÃ¡rio 452,VestuÃ¡rio,4506.34
+453,Produto EletrÃ´nicos 453,EletrÃ´nicos,860.43
+454,Produto Esportes 454,Esportes,3958.75
+455,Produto Livros 455,Livros,3367.74
+456,Produto EletrÃ´nicos 456,EletrÃ´nicos,941.33
+457,Produto InformÃ¡tica 457,InformÃ¡tica,714.59
+458,Produto Esportes 458,Esportes,864.79
+459,Produto Esportes 459,Esportes,1286.77
+460,Produto Beleza 460,Beleza,275.08
+461,Produto InformÃ¡tica 461,InformÃ¡tica,288.68
+462,Produto EletrÃ´nicos 462,EletrÃ´nicos,3134.33
+463,Produto Casa e DecoraÃ§Ã£o 463,Casa e DecoraÃ§Ã£o,2375.54
+464,Produto Livros 464,Livros,4822.2
+465,Produto VestuÃ¡rio 465,VestuÃ¡rio,497.52
+466,Produto InformÃ¡tica 466,InformÃ¡tica,2798.03
+467,Produto InformÃ¡tica 467,InformÃ¡tica,1631.73
+468,Produto Livros 468,Livros,1182.03
+469,Produto Livros 469,Livros,470.99
+470,Produto InformÃ¡tica 470,InformÃ¡tica,1785.13
+471,Produto InformÃ¡tica 471,InformÃ¡tica,1036.78
+472,Produto Casa e DecoraÃ§Ã£o 472,Casa e DecoraÃ§Ã£o,2410.78
+473,Produto InformÃ¡tica 473,InformÃ¡tica,1205.5
+474,Produto VestuÃ¡rio 474,VestuÃ¡rio,1467.93
+475,Produto Beleza 475,Beleza,1385.53
+476,Produto Casa e DecoraÃ§Ã£o 476,Casa e DecoraÃ§Ã£o,2208.58
+477,Produto EletrÃ´nicos 477,EletrÃ´nicos,4644.73
+478,Produto VestuÃ¡rio 478,VestuÃ¡rio,3790.98
+479,Produto InformÃ¡tica 479,InformÃ¡tica,274.87
+480,Produto Casa e DecoraÃ§Ã£o 480,Casa e DecoraÃ§Ã£o,3909.29
+481,Produto EletrÃ´nicos 481,EletrÃ´nicos,822.53
+482,Produto EletrÃ´nicos 482,EletrÃ´nicos,4899.32
+483,Produto Esportes 483,Esportes,1906.71
+484,Produto VestuÃ¡rio 484,VestuÃ¡rio,4018.56
+485,Produto Esportes 485,Esportes,514.48
+486,Produto Esportes 486,Esportes,34.01
+487,Produto EletrÃ´nicos 487,EletrÃ´nicos,3970.05
+488,Produto EletrÃ´nicos 488,EletrÃ´nicos,2558.42
+489,Produto EletrÃ´nicos 489,EletrÃ´nicos,3673.13
+490,Produto InformÃ¡tica 490,InformÃ¡tica,372.9
+491,Produto InformÃ¡tica 491,InformÃ¡tica,1689.71
+492,Produto Beleza 492,Beleza,2502.0
+493,Produto VestuÃ¡rio 493,VestuÃ¡rio,4071.6
+494,Produto InformÃ¡tica 494,InformÃ¡tica,4372.78
+495,Produto Casa e DecoraÃ§Ã£o 495,Casa e DecoraÃ§Ã£o,2032.24
+496,Produto Livros 496,Livros,4786.6
+497,Produto Esportes 497,Esportes,338.6
+498,Produto InformÃ¡tica 498,InformÃ¡tica,3117.45
+499,Produto Beleza 499,Beleza,2978.82
+500,Produto Beleza 500,Beleza,2839.83
+501,Produto InformÃ¡tica 501,InformÃ¡tica,3615.82
+502,Produto Casa e DecoraÃ§Ã£o 502,Casa e DecoraÃ§Ã£o,3852.35
+503,Produto Livros 503,Livros,100.86
+504,Produto VestuÃ¡rio 504,VestuÃ¡rio,3274.52
+505,Produto Esportes 505,Esportes,4467.14
+506,Produto InformÃ¡tica 506,InformÃ¡tica,2783.31
+507,Produto Esportes 507,Esportes,1404.42
+508,Produto EletrÃ´nicos 508,EletrÃ´nicos,2543.43
+509,Produto Esportes 509,Esportes,4128.42
+510,Produto Esportes 510,Esportes,301.13
+511,Produto VestuÃ¡rio 511,VestuÃ¡rio,3158.41
+512,Produto Esportes 512,Esportes,1382.42
+513,Produto EletrÃ´nicos 513,EletrÃ´nicos,4394.41
+514,Produto Beleza 514,Beleza,2600.3
+515,Produto Casa e DecoraÃ§Ã£o 515,Casa e DecoraÃ§Ã£o,2861.65
+516,Produto EletrÃ´nicos 516,EletrÃ´nicos,2725.52
+517,Produto Livros 517,Livros,518.03
+518,Produto Beleza 518,Beleza,3641.25
+519,Produto VestuÃ¡rio 519,VestuÃ¡rio,960.66
+520,Produto Livros 520,Livros,296.16
+521,Produto InformÃ¡tica 521,InformÃ¡tica,3493.57
+522,Produto InformÃ¡tica 522,InformÃ¡tica,1210.35
+523,Produto Casa e DecoraÃ§Ã£o 523,Casa e DecoraÃ§Ã£o,2764.51
+524,Produto Beleza 524,Beleza,875.22
+525,Produto Casa e DecoraÃ§Ã£o 525,Casa e DecoraÃ§Ã£o,4212.36
+526,Produto EletrÃ´nicos 526,EletrÃ´nicos,673.86
+527,Produto EletrÃ´nicos 527,EletrÃ´nicos,2171.1
+528,Produto Beleza 528,Beleza,1739.03
+529,Produto Livros 529,Livros,3917.37
+530,Produto Casa e DecoraÃ§Ã£o 530,Casa e DecoraÃ§Ã£o,4605.04
+531,Produto EletrÃ´nicos 531,EletrÃ´nicos,3650.27
+532,Produto Beleza 532,Beleza,1225.93
+533,Produto Esportes 533,Esportes,66.67
+534,Produto InformÃ¡tica 534,InformÃ¡tica,4742.11
+535,Produto InformÃ¡tica 535,InformÃ¡tica,3070.89
+536,Produto Casa e DecoraÃ§Ã£o 536,Casa e DecoraÃ§Ã£o,4114.63
+537,Produto Livros 537,Livros,827.79
+538,Produto InformÃ¡tica 538,InformÃ¡tica,1822.8
+539,Produto EletrÃ´nicos 539,EletrÃ´nicos,2773.59
+540,Produto InformÃ¡tica 540,InformÃ¡tica,1426.44
+541,Produto VestuÃ¡rio 541,VestuÃ¡rio,4757.65
+542,Produto VestuÃ¡rio 542,VestuÃ¡rio,1155.7
+543,Produto EletrÃ´nicos 543,EletrÃ´nicos,838.04
+544,Produto Esportes 544,Esportes,1876.79
+545,Produto Livros 545,Livros,1072.2
+546,Produto InformÃ¡tica 546,InformÃ¡tica,4829.93
+547,Produto Casa e DecoraÃ§Ã£o 547,Casa e DecoraÃ§Ã£o,4146.01
+548,Produto Casa e DecoraÃ§Ã£o 548,Casa e DecoraÃ§Ã£o,4123.12
+549,Produto Beleza 549,Beleza,3730.21
+550,Produto Beleza 550,Beleza,1515.09
+551,Produto InformÃ¡tica 551,InformÃ¡tica,1707.17
+552,Produto Livros 552,Livros,2991.48
+553,Produto Esportes 553,Esportes,990.55
+554,Produto Beleza 554,Beleza,4863.94
+555,Produto Beleza 555,Beleza,3746.27
+556,Produto VestuÃ¡rio 556,VestuÃ¡rio,1589.51
+557,Produto Livros 557,Livros,3558.08
+558,Produto InformÃ¡tica 558,InformÃ¡tica,4157.11
+559,Produto Livros 559,Livros,4305.66
+560,Produto EletrÃ´nicos 560,EletrÃ´nicos,3032.68
+561,Produto InformÃ¡tica 561,InformÃ¡tica,4067.71
+562,Produto Casa e DecoraÃ§Ã£o 562,Casa e DecoraÃ§Ã£o,4579.28
+563,Produto Beleza 563,Beleza,1272.05
+564,Produto Livros 564,Livros,3956.27
+565,Produto Casa e DecoraÃ§Ã£o 565,Casa e DecoraÃ§Ã£o,505.06
+566,Produto InformÃ¡tica 566,InformÃ¡tica,656.19
+567,Produto Casa e DecoraÃ§Ã£o 567,Casa e DecoraÃ§Ã£o,2062.49
+568,Produto Esportes 568,Esportes,4091.9
+569,Produto Livros 569,Livros,4879.33
+570,Produto Beleza 570,Beleza,1488.22
+571,Produto VestuÃ¡rio 571,VestuÃ¡rio,1138.08
+572,Produto InformÃ¡tica 572,InformÃ¡tica,238.4
+573,Produto InformÃ¡tica 573,InformÃ¡tica,1534.06
+574,Produto EletrÃ´nicos 574,EletrÃ´nicos,3169.03
+575,Produto Livros 575,Livros,4949.43
+576,Produto Livros 576,Livros,3017.83
+577,Produto InformÃ¡tica 577,InformÃ¡tica,65.14
+578,Produto VestuÃ¡rio 578,VestuÃ¡rio,2049.62
+579,Produto EletrÃ´nicos 579,EletrÃ´nicos,497.14
+580,Produto Beleza 580,Beleza,432.4
+581,Produto Casa e DecoraÃ§Ã£o 581,Casa e DecoraÃ§Ã£o,3755.57
+582,Produto Casa e DecoraÃ§Ã£o 582,Casa e DecoraÃ§Ã£o,592.62
+583,Produto Esportes 583,Esportes,3110.44
+584,Produto VestuÃ¡rio 584,VestuÃ¡rio,259.88
+585,Produto InformÃ¡tica 585,InformÃ¡tica,3827.81
+586,Produto InformÃ¡tica 586,InformÃ¡tica,185.24
+587,Produto InformÃ¡tica 587,InformÃ¡tica,3417.98
+588,Produto Casa e DecoraÃ§Ã£o 588,Casa e DecoraÃ§Ã£o,4234.93
+589,Produto InformÃ¡tica 589,InformÃ¡tica,1166.95
+590,Produto VestuÃ¡rio 590,VestuÃ¡rio,2178.22
+591,Produto VestuÃ¡rio 591,VestuÃ¡rio,2275.15
+592,Produto InformÃ¡tica 592,InformÃ¡tica,2110.32
+593,Produto Casa e DecoraÃ§Ã£o 593,Casa e DecoraÃ§Ã£o,2431.33
+594,Produto VestuÃ¡rio 594,VestuÃ¡rio,108.41
+595,Produto Casa e DecoraÃ§Ã£o 595,Casa e DecoraÃ§Ã£o,1171.26
+596,Produto Beleza 596,Beleza,993.16
+597,Produto Esportes 597,Esportes,2967.54
+598,Produto EletrÃ´nicos 598,EletrÃ´nicos,2855.77
+599,Produto Casa e DecoraÃ§Ã£o 599,Casa e DecoraÃ§Ã£o,226.28
+600,Produto EletrÃ´nicos 600,EletrÃ´nicos,4484.66
+601,Produto Livros 601,Livros,750.77
+602,Produto Beleza 602,Beleza,2373.76
+603,Produto Beleza 603,Beleza,3126.19
+604,Produto Casa e DecoraÃ§Ã£o 604,Casa e DecoraÃ§Ã£o,2261.12
+605,Produto InformÃ¡tica 605,InformÃ¡tica,848.82
+606,Produto EletrÃ´nicos 606,EletrÃ´nicos,3958.83
+607,Produto Esportes 607,Esportes,4033.9
+608,Produto VestuÃ¡rio 608,VestuÃ¡rio,2209.9
+609,Produto Esportes 609,Esportes,399.08
+610,Produto InformÃ¡tica 610,InformÃ¡tica,1764.84
+611,Produto Beleza 611,Beleza,4524.65
+612,Produto EletrÃ´nicos 612,EletrÃ´nicos,2546.52
+613,Produto InformÃ¡tica 613,InformÃ¡tica,2909.34
+614,Produto Casa e DecoraÃ§Ã£o 614,Casa e DecoraÃ§Ã£o,2920.93
+615,Produto Esportes 615,Esportes,2083.31
+616,Produto Casa e DecoraÃ§Ã£o 616,Casa e DecoraÃ§Ã£o,1847.9
+617,Produto VestuÃ¡rio 617,VestuÃ¡rio,3832.16
+618,Produto VestuÃ¡rio 618,VestuÃ¡rio,1298.64
+619,Produto EletrÃ´nicos 619,EletrÃ´nicos,2465.62
+620,Produto Livros 620,Livros,2989.93
+621,Produto Esportes 621,Esportes,3133.21
+622,Produto Beleza 622,Beleza,569.06
+623,Produto InformÃ¡tica 623,InformÃ¡tica,195.62
+624,Produto Beleza 624,Beleza,669.89
+625,Produto VestuÃ¡rio 625,VestuÃ¡rio,2836.37
+626,Produto Livros 626,Livros,3838.59
+627,Produto Esportes 627,Esportes,2673.91
+628,Produto Casa e DecoraÃ§Ã£o 628,Casa e DecoraÃ§Ã£o,4530.01
+629,Produto VestuÃ¡rio 629,VestuÃ¡rio,2637.02
+630,Produto Livros 630,Livros,2202.43
+631,Produto InformÃ¡tica 631,InformÃ¡tica,1970.98
+632,Produto Casa e DecoraÃ§Ã£o 632,Casa e DecoraÃ§Ã£o,3707.12
+633,Produto Beleza 633,Beleza,3996.71
+634,Produto InformÃ¡tica 634,InformÃ¡tica,2773.46
+635,Produto InformÃ¡tica 635,InformÃ¡tica,918.43
+636,Produto VestuÃ¡rio 636,VestuÃ¡rio,4037.02
+637,Produto Casa e DecoraÃ§Ã£o 637,Casa e DecoraÃ§Ã£o,2554.2
+638,Produto Esportes 638,Esportes,4941.57
+639,Produto Livros 639,Livros,1674.5
+640,Produto Esportes 640,Esportes,3850.29
+641,Produto Livros 641,Livros,2505.36
+642,Produto Livros 642,Livros,1095.94
+643,Produto Livros 643,Livros,3024.49
+644,Produto EletrÃ´nicos 644,EletrÃ´nicos,1372.78
+645,Produto InformÃ¡tica 645,InformÃ¡tica,4985.58
+646,Produto VestuÃ¡rio 646,VestuÃ¡rio,557.17
+647,Produto Casa e DecoraÃ§Ã£o 647,Casa e DecoraÃ§Ã£o,3581.87
+648,Produto VestuÃ¡rio 648,VestuÃ¡rio,4569.46
+649,Produto VestuÃ¡rio 649,VestuÃ¡rio,3253.86
+650,Produto Casa e DecoraÃ§Ã£o 650,Casa e DecoraÃ§Ã£o,1525.24
+651,Produto EletrÃ´nicos 651,EletrÃ´nicos,882.17
+652,Produto Casa e DecoraÃ§Ã£o 652,Casa e DecoraÃ§Ã£o,1261.83
+653,Produto VestuÃ¡rio 653,VestuÃ¡rio,1616.09
+654,Produto Esportes 654,Esportes,4509.3
+655,Produto Beleza 655,Beleza,196.34
+656,Produto EletrÃ´nicos 656,EletrÃ´nicos,72.76
+657,Produto Esportes 657,Esportes,435.12
+658,Produto Esportes 658,Esportes,4462.09
+659,Produto Livros 659,Livros,3078.05
+660,Produto Casa e DecoraÃ§Ã£o 660,Casa e DecoraÃ§Ã£o,939.46
+661,Produto Livros 661,Livros,624.13
+662,Produto VestuÃ¡rio 662,VestuÃ¡rio,4519.9
+663,Produto InformÃ¡tica 663,InformÃ¡tica,672.02
+664,Produto Casa e DecoraÃ§Ã£o 664,Casa e DecoraÃ§Ã£o,4633.21
+665,Produto VestuÃ¡rio 665,VestuÃ¡rio,1076.34
+666,Produto EletrÃ´nicos 666,EletrÃ´nicos,3046.8
+667,Produto VestuÃ¡rio 667,VestuÃ¡rio,1931.02
+668,Produto EletrÃ´nicos 668,EletrÃ´nicos,2774.35
+669,Produto Beleza 669,Beleza,4748.14
+670,Produto Esportes 670,Esportes,1362.43
+671,Produto VestuÃ¡rio 671,VestuÃ¡rio,168.23
+672,Produto Casa e DecoraÃ§Ã£o 672,Casa e DecoraÃ§Ã£o,1637.92
+673,Produto Beleza 673,Beleza,4206.55
+674,Produto Esportes 674,Esportes,4664.21
+675,Produto InformÃ¡tica 675,InformÃ¡tica,3191.46
+676,Produto Beleza 676,Beleza,3864.32
+677,Produto Livros 677,Livros,4810.88
+678,Produto InformÃ¡tica 678,InformÃ¡tica,2669.17
+679,Produto Beleza 679,Beleza,51.72
+680,Produto VestuÃ¡rio 680,VestuÃ¡rio,3352.35
+681,Produto EletrÃ´nicos 681,EletrÃ´nicos,1102.73
+682,Produto Esportes 682,Esportes,3242.79
+683,Produto InformÃ¡tica 683,InformÃ¡tica,4972.84
+684,Produto Esportes 684,Esportes,3171.63
+685,Produto EletrÃ´nicos 685,EletrÃ´nicos,2475.58
+686,Produto InformÃ¡tica 686,InformÃ¡tica,315.36
+687,Produto EletrÃ´nicos 687,EletrÃ´nicos,1452.37
+688,Produto Esportes 688,Esportes,1735.97
+689,Produto EletrÃ´nicos 689,EletrÃ´nicos,1732.02
+690,Produto Livros 690,Livros,1257.78
+691,Produto Casa e DecoraÃ§Ã£o 691,Casa e DecoraÃ§Ã£o,1518.48
+692,Produto Beleza 692,Beleza,899.82
+693,Produto Livros 693,Livros,1697.86
+694,Produto Casa e DecoraÃ§Ã£o 694,Casa e DecoraÃ§Ã£o,2457.17
+695,Produto Esportes 695,Esportes,3883.77
+696,Produto EletrÃ´nicos 696,EletrÃ´nicos,4808.96
+697,Produto EletrÃ´nicos 697,EletrÃ´nicos,3869.49
+698,Produto Casa e DecoraÃ§Ã£o 698,Casa e DecoraÃ§Ã£o,1363.4
+699,Produto Livros 699,Livros,2460.08
+700,Produto Casa e DecoraÃ§Ã£o 700,Casa e DecoraÃ§Ã£o,120.2
+701,Produto Livros 701,Livros,4250.66
+702,Produto EletrÃ´nicos 702,EletrÃ´nicos,3027.67
+703,Produto InformÃ¡tica 703,InformÃ¡tica,350.11
+704,Produto Casa e DecoraÃ§Ã£o 704,Casa e DecoraÃ§Ã£o,814.48
+705,Produto EletrÃ´nicos 705,EletrÃ´nicos,790.79
+706,Produto EletrÃ´nicos 706,EletrÃ´nicos,2113.82
+707,Produto EletrÃ´nicos 707,EletrÃ´nicos,1076.99
+708,Produto EletrÃ´nicos 708,EletrÃ´nicos,1019.64
+709,Produto Casa e DecoraÃ§Ã£o 709,Casa e DecoraÃ§Ã£o,4599.64
+710,Produto EletrÃ´nicos 710,EletrÃ´nicos,2050.28
+711,Produto EletrÃ´nicos 711,EletrÃ´nicos,2117.13
+712,Produto Livros 712,Livros,1643.57
+713,Produto VestuÃ¡rio 713,VestuÃ¡rio,1475.09
+714,Produto Casa e DecoraÃ§Ã£o 714,Casa e DecoraÃ§Ã£o,3028.62
+715,Produto Casa e DecoraÃ§Ã£o 715,Casa e DecoraÃ§Ã£o,4341.8
+716,Produto Casa e DecoraÃ§Ã£o 716,Casa e DecoraÃ§Ã£o,1871.32
+717,Produto EletrÃ´nicos 717,EletrÃ´nicos,770.96
+718,Produto EletrÃ´nicos 718,EletrÃ´nicos,3186.15
+719,Produto Livros 719,Livros,3141.69
+720,Produto Beleza 720,Beleza,624.12
+721,Produto VestuÃ¡rio 721,VestuÃ¡rio,3008.89
+722,Produto InformÃ¡tica 722,InformÃ¡tica,3729.17
+723,Produto EletrÃ´nicos 723,EletrÃ´nicos,496.42
+724,Produto Esportes 724,Esportes,2004.68
+725,Produto Esportes 725,Esportes,1767.29
+726,Produto Esportes 726,Esportes,2161.47
+727,Produto Beleza 727,Beleza,1626.0
+728,Produto Beleza 728,Beleza,3221.53
+729,Produto Casa e DecoraÃ§Ã£o 729,Casa e DecoraÃ§Ã£o,3533.3
+730,Produto EletrÃ´nicos 730,EletrÃ´nicos,427.9
+731,Produto Casa e DecoraÃ§Ã£o 731,Casa e DecoraÃ§Ã£o,932.05
+732,Produto Esportes 732,Esportes,1843.53
+733,Produto Esportes 733,Esportes,4716.29
+734,Produto Beleza 734,Beleza,3082.61
+735,Produto VestuÃ¡rio 735,VestuÃ¡rio,3780.29
+736,Produto Livros 736,Livros,4996.79
+737,Produto Livros 737,Livros,1000.13
+738,Produto Livros 738,Livros,3353.6
+739,Produto Beleza 739,Beleza,1650.81
+740,Produto Livros 740,Livros,321.37
+741,Produto Casa e DecoraÃ§Ã£o 741,Casa e DecoraÃ§Ã£o,3146.1
+742,Produto EletrÃ´nicos 742,EletrÃ´nicos,1198.99
+743,Produto Beleza 743,Beleza,77.95
+744,Produto Beleza 744,Beleza,2225.39
+745,Produto Beleza 745,Beleza,2395.3
+746,Produto EletrÃ´nicos 746,EletrÃ´nicos,3089.19
+747,Produto EletrÃ´nicos 747,EletrÃ´nicos,2651.9
+748,Produto Beleza 748,Beleza,3958.31
+749,Produto Esportes 749,Esportes,1831.64
+750,Produto Casa e DecoraÃ§Ã£o 750,Casa e DecoraÃ§Ã£o,4260.75
+751,Produto Beleza 751,Beleza,1617.58
+752,Produto Beleza 752,Beleza,912.59
+753,Produto Esportes 753,Esportes,3823.21
+754,Produto EletrÃ´nicos 754,EletrÃ´nicos,3068.5
+755,Produto VestuÃ¡rio 755,VestuÃ¡rio,3723.86
+756,Produto EletrÃ´nicos 756,EletrÃ´nicos,1464.19
+757,Produto Livros 757,Livros,2605.46
+758,Produto InformÃ¡tica 758,InformÃ¡tica,856.69
+759,Produto Beleza 759,Beleza,2708.11
+760,Produto Casa e DecoraÃ§Ã£o 760,Casa e DecoraÃ§Ã£o,2402.84
+761,Produto InformÃ¡tica 761,InformÃ¡tica,1597.39
+762,Produto Livros 762,Livros,592.01
+763,Produto Beleza 763,Beleza,606.19
+764,Produto Esportes 764,Esportes,2218.33
+765,Produto Casa e DecoraÃ§Ã£o 765,Casa e DecoraÃ§Ã£o,4096.86
+766,Produto Beleza 766,Beleza,274.42
+767,Produto VestuÃ¡rio 767,VestuÃ¡rio,4665.99
+768,Produto Esportes 768,Esportes,2286.1
+769,Produto EletrÃ´nicos 769,EletrÃ´nicos,3390.67
+770,Produto Esportes 770,Esportes,2129.96
+771,Produto EletrÃ´nicos 771,EletrÃ´nicos,4361.5
+772,Produto EletrÃ´nicos 772,EletrÃ´nicos,3756.54
+773,Produto VestuÃ¡rio 773,VestuÃ¡rio,1254.91
+774,Produto InformÃ¡tica 774,InformÃ¡tica,1015.72
+775,Produto Livros 775,Livros,3575.15
+776,Produto EletrÃ´nicos 776,EletrÃ´nicos,2007.46
+777,Produto Casa e DecoraÃ§Ã£o 777,Casa e DecoraÃ§Ã£o,826.63
+778,Produto Esportes 778,Esportes,4925.27
+779,Produto InformÃ¡tica 779,InformÃ¡tica,2290.85
+780,Produto EletrÃ´nicos 780,EletrÃ´nicos,2733.9
+781,Produto Esportes 781,Esportes,1520.1
+782,Produto Esportes 782,Esportes,30.17
+783,Produto Beleza 783,Beleza,737.67
+784,Produto VestuÃ¡rio 784,VestuÃ¡rio,3079.03
+785,Produto VestuÃ¡rio 785,VestuÃ¡rio,2387.03
+786,Produto VestuÃ¡rio 786,VestuÃ¡rio,2820.47
+787,Produto VestuÃ¡rio 787,VestuÃ¡rio,3603.41
+788,Produto Esportes 788,Esportes,2400.62
+789,Produto VestuÃ¡rio 789,VestuÃ¡rio,4110.09
+790,Produto Livros 790,Livros,926.91
+791,Produto Esportes 791,Esportes,4652.25
+792,Produto Livros 792,Livros,1897.66
+793,Produto Livros 793,Livros,2736.72
+794,Produto Esportes 794,Esportes,4671.65
+795,Produto Livros 795,Livros,4943.27
+796,Produto InformÃ¡tica 796,InformÃ¡tica,454.65
+797,Produto EletrÃ´nicos 797,EletrÃ´nicos,1323.77
+798,Produto Esportes 798,Esportes,2145.57
+799,Produto Livros 799,Livros,2319.65
+800,Produto Livros 800,Livros,2436.99
+801,Produto EletrÃ´nicos 801,EletrÃ´nicos,3103.93
+802,Produto EletrÃ´nicos 802,EletrÃ´nicos,1248.18
+803,Produto Casa e DecoraÃ§Ã£o 803,Casa e DecoraÃ§Ã£o,1257.99
+804,Produto Livros 804,Livros,1782.09
+805,Produto EletrÃ´nicos 805,EletrÃ´nicos,2804.24
+806,Produto EletrÃ´nicos 806,EletrÃ´nicos,2812.91
+807,Produto Livros 807,Livros,3158.32
+808,Produto Casa e DecoraÃ§Ã£o 808,Casa e DecoraÃ§Ã£o,1358.68
+809,Produto Beleza 809,Beleza,4468.87
+810,Produto Esportes 810,Esportes,594.32
+811,Produto InformÃ¡tica 811,InformÃ¡tica,678.02
+812,Produto VestuÃ¡rio 812,VestuÃ¡rio,2174.17
+813,Produto InformÃ¡tica 813,InformÃ¡tica,692.44
+814,Produto EletrÃ´nicos 814,EletrÃ´nicos,1034.85
+815,Produto EletrÃ´nicos 815,EletrÃ´nicos,3700.16
+816,Produto Casa e DecoraÃ§Ã£o 816,Casa e DecoraÃ§Ã£o,1313.21
+817,Produto Beleza 817,Beleza,409.02
+818,Produto Beleza 818,Beleza,2221.41
+819,Produto Beleza 819,Beleza,1632.21
+820,Produto Esportes 820,Esportes,4958.47
+821,Produto EletrÃ´nicos 821,EletrÃ´nicos,1129.8
+822,Produto EletrÃ´nicos 822,EletrÃ´nicos,4273.68
+823,Produto Casa e DecoraÃ§Ã£o 823,Casa e DecoraÃ§Ã£o,3980.24
+824,Produto Casa e DecoraÃ§Ã£o 824,Casa e DecoraÃ§Ã£o,1821.31
+825,Produto Casa e DecoraÃ§Ã£o 825,Casa e DecoraÃ§Ã£o,2987.54
+826,Produto InformÃ¡tica 826,InformÃ¡tica,4080.53
+827,Produto EletrÃ´nicos 827,EletrÃ´nicos,3745.76
+828,Produto Livros 828,Livros,2307.33
+829,Produto Beleza 829,Beleza,4644.56
+830,Produto Beleza 830,Beleza,1008.83
+831,Produto Beleza 831,Beleza,3018.81
+832,Produto Beleza 832,Beleza,4614.8
+833,Produto Casa e DecoraÃ§Ã£o 833,Casa e DecoraÃ§Ã£o,3961.83
+834,Produto InformÃ¡tica 834,InformÃ¡tica,487.86
+835,Produto Beleza 835,Beleza,4585.78
+836,Produto Livros 836,Livros,1584.59
+837,Produto InformÃ¡tica 837,InformÃ¡tica,4778.69
+838,Produto Esportes 838,Esportes,31.64
+839,Produto Casa e DecoraÃ§Ã£o 839,Casa e DecoraÃ§Ã£o,100.11
+840,Produto Beleza 840,Beleza,2395.84
+841,Produto Casa e DecoraÃ§Ã£o 841,Casa e DecoraÃ§Ã£o,2350.05
+842,Produto VestuÃ¡rio 842,VestuÃ¡rio,4234.5
+843,Produto InformÃ¡tica 843,InformÃ¡tica,1097.41
+844,Produto InformÃ¡tica 844,InformÃ¡tica,3882.39
+845,Produto EletrÃ´nicos 845,EletrÃ´nicos,894.37
+846,Produto InformÃ¡tica 846,InformÃ¡tica,1658.26
+847,Produto EletrÃ´nicos 847,EletrÃ´nicos,4482.91
+848,Produto Beleza 848,Beleza,4822.8
+849,Produto Beleza 849,Beleza,1191.77
+850,Produto Esportes 850,Esportes,4847.62
+851,Produto Casa e DecoraÃ§Ã£o 851,Casa e DecoraÃ§Ã£o,2321.88
+852,Produto Casa e DecoraÃ§Ã£o 852,Casa e DecoraÃ§Ã£o,259.95
+853,Produto Beleza 853,Beleza,113.42
+854,Produto Esportes 854,Esportes,322.85
+855,Produto EletrÃ´nicos 855,EletrÃ´nicos,4602.06
+856,Produto Livros 856,Livros,514.49
+857,Produto Livros 857,Livros,1428.41
+858,Produto VestuÃ¡rio 858,VestuÃ¡rio,2690.82
+859,Produto Livros 859,Livros,1616.93
+860,Produto Esportes 860,Esportes,44.57
+861,Produto Livros 861,Livros,2250.25
+862,Produto Beleza 862,Beleza,486.19
+863,Produto InformÃ¡tica 863,InformÃ¡tica,2529.17
+864,Produto Beleza 864,Beleza,2194.8
+865,Produto Livros 865,Livros,2806.65
+866,Produto Esportes 866,Esportes,4514.41
+867,Produto EletrÃ´nicos 867,EletrÃ´nicos,4305.51
+868,Produto EletrÃ´nicos 868,EletrÃ´nicos,4556.18
+869,Produto Livros 869,Livros,3990.83
+870,Produto Beleza 870,Beleza,4831.31
+871,Produto Casa e DecoraÃ§Ã£o 871,Casa e DecoraÃ§Ã£o,109.38
+872,Produto InformÃ¡tica 872,InformÃ¡tica,3011.04
+873,Produto Esportes 873,Esportes,2361.45
+874,Produto Beleza 874,Beleza,962.8
+875,Produto Casa e DecoraÃ§Ã£o 875,Casa e DecoraÃ§Ã£o,2843.98
+876,Produto InformÃ¡tica 876,InformÃ¡tica,993.89
+877,Produto Esportes 877,Esportes,3632.46
+878,Produto EletrÃ´nicos 878,EletrÃ´nicos,4145.68
+879,Produto VestuÃ¡rio 879,VestuÃ¡rio,2918.59
+880,Produto Casa e DecoraÃ§Ã£o 880,Casa e DecoraÃ§Ã£o,1156.1
+881,Produto Casa e DecoraÃ§Ã£o 881,Casa e DecoraÃ§Ã£o,3603.79
+882,Produto Esportes 882,Esportes,451.73
+883,Produto VestuÃ¡rio 883,VestuÃ¡rio,2310.61
+884,Produto VestuÃ¡rio 884,VestuÃ¡rio,3458.55
+885,Produto InformÃ¡tica 885,InformÃ¡tica,4373.41
+886,Produto Casa e DecoraÃ§Ã£o 886,Casa e DecoraÃ§Ã£o,3548.6
+887,Produto VestuÃ¡rio 887,VestuÃ¡rio,2528.7
+888,Produto EletrÃ´nicos 888,EletrÃ´nicos,3502.17
+889,Produto Casa e DecoraÃ§Ã£o 889,Casa e DecoraÃ§Ã£o,4340.15
+890,Produto Beleza 890,Beleza,1240.14
+891,Produto Esportes 891,Esportes,4045.36
+892,Produto Beleza 892,Beleza,3415.02
+893,Produto VestuÃ¡rio 893,VestuÃ¡rio,1772.01
+894,Produto InformÃ¡tica 894,InformÃ¡tica,3507.79
+895,Produto VestuÃ¡rio 895,VestuÃ¡rio,3958.93
+896,Produto Esportes 896,Esportes,3574.4
+897,Produto Beleza 897,Beleza,293.89
+898,Produto Casa e DecoraÃ§Ã£o 898,Casa e DecoraÃ§Ã£o,3801.28
+899,Produto Casa e DecoraÃ§Ã£o 899,Casa e DecoraÃ§Ã£o,3949.72
+900,Produto EletrÃ´nicos 900,EletrÃ´nicos,3821.28
+901,Produto EletrÃ´nicos 901,EletrÃ´nicos,1264.09
+902,Produto EletrÃ´nicos 902,EletrÃ´nicos,3569.01
+903,Produto InformÃ¡tica 903,InformÃ¡tica,4888.79
+904,Produto VestuÃ¡rio 904,VestuÃ¡rio,1159.6
+905,Produto VestuÃ¡rio 905,VestuÃ¡rio,2030.98
+906,Produto Casa e DecoraÃ§Ã£o 906,Casa e DecoraÃ§Ã£o,1050.2
+907,Produto Esportes 907,Esportes,1341.38
+908,Produto VestuÃ¡rio 908,VestuÃ¡rio,2513.11
+909,Produto Casa e DecoraÃ§Ã£o 909,Casa e DecoraÃ§Ã£o,3272.87
+910,Produto Esportes 910,Esportes,3246.71
+911,Produto VestuÃ¡rio 911,VestuÃ¡rio,632.76
+912,Produto EletrÃ´nicos 912,EletrÃ´nicos,4442.01
+913,Produto Livros 913,Livros,3135.04
+914,Produto Beleza 914,Beleza,3845.67
+915,Produto Casa e DecoraÃ§Ã£o 915,Casa e DecoraÃ§Ã£o,1722.49
+916,Produto Beleza 916,Beleza,1740.03
+917,Produto Beleza 917,Beleza,48.5
+918,Produto EletrÃ´nicos 918,EletrÃ´nicos,3639.93
+919,Produto Beleza 919,Beleza,2429.49
+920,Produto Beleza 920,Beleza,253.13
+921,Produto Beleza 921,Beleza,4655.32
+922,Produto EletrÃ´nicos 922,EletrÃ´nicos,1631.62
+923,Produto Beleza 923,Beleza,4645.6
+924,Produto InformÃ¡tica 924,InformÃ¡tica,3674.69
+925,Produto Livros 925,Livros,3811.72
+926,Produto Casa e DecoraÃ§Ã£o 926,Casa e DecoraÃ§Ã£o,3544.21
+927,Produto Casa e DecoraÃ§Ã£o 927,Casa e DecoraÃ§Ã£o,2817.04
+928,Produto Livros 928,Livros,293.65
+929,Produto InformÃ¡tica 929,InformÃ¡tica,1619.6
+930,Produto EletrÃ´nicos 930,EletrÃ´nicos,1767.28
+931,Produto InformÃ¡tica 931,InformÃ¡tica,3035.85
+932,Produto InformÃ¡tica 932,InformÃ¡tica,3289.63
+933,Produto InformÃ¡tica 933,InformÃ¡tica,354.12
+934,Produto Casa e DecoraÃ§Ã£o 934,Casa e DecoraÃ§Ã£o,648.71
+935,Produto Livros 935,Livros,1666.19
+936,Produto InformÃ¡tica 936,InformÃ¡tica,1948.74
+937,Produto Beleza 937,Beleza,1541.45
+938,Produto Casa e DecoraÃ§Ã£o 938,Casa e DecoraÃ§Ã£o,2128.76
+939,Produto Beleza 939,Beleza,1146.86
+940,Produto Beleza 940,Beleza,3797.02
+941,Produto InformÃ¡tica 941,InformÃ¡tica,4095.49
+942,Produto VestuÃ¡rio 942,VestuÃ¡rio,3168.13
+943,Produto Esportes 943,Esportes,4901.75
+944,Produto Esportes 944,Esportes,2817.55
+945,Produto Casa e DecoraÃ§Ã£o 945,Casa e DecoraÃ§Ã£o,3867.9
+946,Produto InformÃ¡tica 946,InformÃ¡tica,29.76
+947,Produto Beleza 947,Beleza,565.84
+948,Produto Beleza 948,Beleza,2920.41
+949,Produto Beleza 949,Beleza,2402.14
+950,Produto Casa e DecoraÃ§Ã£o 950,Casa e DecoraÃ§Ã£o,1998.03
+951,Produto InformÃ¡tica 951,InformÃ¡tica,393.14
+952,Produto VestuÃ¡rio 952,VestuÃ¡rio,4228.28
+953,Produto Livros 953,Livros,1211.19
+954,Produto Beleza 954,Beleza,775.7
+955,Produto VestuÃ¡rio 955,VestuÃ¡rio,2643.82
+956,Produto EletrÃ´nicos 956,EletrÃ´nicos,3907.67
+957,Produto Beleza 957,Beleza,4462.89
+958,Produto EletrÃ´nicos 958,EletrÃ´nicos,1650.18
+959,Produto Beleza 959,Beleza,4682.23
+960,Produto Livros 960,Livros,4837.82
+961,Produto Casa e DecoraÃ§Ã£o 961,Casa e DecoraÃ§Ã£o,1281.02
+962,Produto InformÃ¡tica 962,InformÃ¡tica,4363.39
+963,Produto Livros 963,Livros,478.3
+964,Produto Beleza 964,Beleza,2504.3
+965,Produto Livros 965,Livros,1775.74
+966,Produto Livros 966,Livros,51.05
+967,Produto Esportes 967,Esportes,1371.95
+968,Produto Livros 968,Livros,2190.07
+969,Produto Livros 969,Livros,1871.07
+970,Produto Esportes 970,Esportes,1747.18
+971,Produto Casa e DecoraÃ§Ã£o 971,Casa e DecoraÃ§Ã£o,3095.4
+972,Produto VestuÃ¡rio 972,VestuÃ¡rio,3858.81
+973,Produto Casa e DecoraÃ§Ã£o 973,Casa e DecoraÃ§Ã£o,784.81
+974,Produto VestuÃ¡rio 974,VestuÃ¡rio,3551.15
+975,Produto EletrÃ´nicos 975,EletrÃ´nicos,628.75
+976,Produto Livros 976,Livros,2138.46
+977,Produto Casa e DecoraÃ§Ã£o 977,Casa e DecoraÃ§Ã£o,75.14
+978,Produto Esportes 978,Esportes,1569.76
+979,Produto EletrÃ´nicos 979,EletrÃ´nicos,345.59
+980,Produto Livros 980,Livros,2590.0
+981,Produto EletrÃ´nicos 981,EletrÃ´nicos,3218.64
+982,Produto Casa e DecoraÃ§Ã£o 982,Casa e DecoraÃ§Ã£o,2265.26
+983,Produto Livros 983,Livros,1086.85
+984,Produto Esportes 984,Esportes,933.82
+985,Produto Beleza 985,Beleza,3243.66
+986,Produto Esportes 986,Esportes,40.43
+987,Produto InformÃ¡tica 987,InformÃ¡tica,3371.78
+988,Produto Esportes 988,Esportes,4309.76
+989,Produto Esportes 989,Esportes,590.08
+990,Produto EletrÃ´nicos 990,EletrÃ´nicos,3082.79
+991,Produto EletrÃ´nicos 991,EletrÃ´nicos,3052.68
+992,Produto Casa e DecoraÃ§Ã£o 992,Casa e DecoraÃ§Ã£o,1905.06
+993,Produto Casa e DecoraÃ§Ã£o 993,Casa e DecoraÃ§Ã£o,2708.83
+994,Produto Esportes 994,Esportes,4974.89
+995,Produto Esportes 995,Esportes,2341.91
+996,Produto EletrÃ´nicos 996,EletrÃ´nicos,3018.03
+997,Produto Esportes 997,Esportes,544.56
+998,Produto EletrÃ´nicos 998,EletrÃ´nicos,3122.0
+999,Produto Esportes 999,Esportes,285.55
+1000,Produto Beleza 1000,Beleza,809.13
