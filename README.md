@@ -23,6 +23,7 @@ Realizar uma análise de cesta de compras (Market Basket Analysis) para identifi
 
 - [src/ingestao.py](src/ingestao.py): carrega os CSVs de `data/raw/` para o banco SQLite.
 - [src/tratamento.py](src/tratamento.py): executa a limpeza, validação e padronização dos dados.
+- [src/dashboard.py](src/dashboard.py): painel Streamlit para leitura e analise dos dados tratados.
 
 ## Arquivos de apoio
 
@@ -41,6 +42,7 @@ Realizar uma análise de cesta de compras (Market Basket Analysis) para identifi
 │   └── processed/
 └── src/
     ├── ingestao.py
+	├── dashboard.py
     ├── tratamento.py
     └── sql/
 ```
@@ -60,6 +62,7 @@ Realizar uma análise de cesta de compras (Market Basket Analysis) para identifi
 	```bash
 	python src/ingestao.py
 	python src/tratamento.py
+	streamlit run src/dashboard.py
 	```
 
 ## Observações
