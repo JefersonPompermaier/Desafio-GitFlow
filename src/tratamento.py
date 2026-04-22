@@ -7,6 +7,7 @@ import pandas as pd
 ROOT_DIR = Path(__file__).parent.parent
 PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 DB_PATH = PROCESSED_DIR / "delivery_database.db"
+SQL_DIR = Path(__file__).parent / "sql"
 
 # correção de encoding nos dados originais
 
@@ -33,37 +34,27 @@ def _parse_datas(series):
     return datas
 
 # validação de registros órfãos
+def _carregar_sql(nome_arquivo):
+    caminho_sql = SQL_DIR / nome_arquivo
+    return caminho_sql.read_text(encoding="utf-8")
+
+
 def _validar_orfaos(conn):
     print("\n=== VALIDAÇÃO DE ÓRFÃOS ===")
     
     # Produtos em itens_pedido que não existem em produtos
     cur = conn.cursor()
-    cur.execute("""
-    SELECT COUNT(DISTINCT i.id_produto) 
-    FROM itens_pedido i 
-    LEFT JOIN produtos p ON i.id_produto = p.id_produto
-    WHERE p.id_produto IS NULL
-    """)
+    cur.execute(_carregar_sql("consultas_orfaos_produtos.sql"))
     orfaos_produtos = cur.fetchone()[0]
     print(f"Produtos órfãos (em itens mas não em produtos): {orfaos_produtos}")
 
     # Pedidos em itens_pedido que não existem em pedidos
-    cur.execute("""
-    SELECT COUNT(DISTINCT i.id_pedido) 
-    FROM itens_pedido i 
-    LEFT JOIN pedidos p ON i.id_pedido = p.id_pedido
-    WHERE p.id_pedido IS NULL
-    """)
+    cur.execute(_carregar_sql("consultas_orfaos_pedidos.sql"))
     orfaos_pedidos = cur.fetchone()[0]
     print(f"Pedidos órfãos (em itens mas não em pedidos): {orfaos_pedidos}")
 
     # Clientes em pedidos que não existem em clientes
-    cur.execute("""
-    SELECT COUNT(DISTINCT p.id_cliente) 
-    FROM pedidos p 
-    LEFT JOIN clientes c ON p.id_cliente = c.id_cliente
-    WHERE c.id_cliente IS NULL
-    """)
+    cur.execute(_carregar_sql("consultas_orfaos_clientes.sql"))
     orfaos_clientes = cur.fetchone()[0]
     print(f"Clientes órfãos (em pedidos mas não em clientes): {orfaos_clientes}")
 
