@@ -24,9 +24,14 @@ def executar_ingestao() -> None:
 
     for arquivo in arquivos:
         nome_tabela = arquivo.stem.lower()
-        df = pd.read_csv(arquivo)
-        df.to_sql(nome_tabela, conn, if_exists='replace', index=False)
-        print(f"Tabela {nome_tabela} carregada.")
+        try:
+            df = pd.read_csv(arquivo)
+            df.to_sql(nome_tabela, conn, if_exists='replace', index=False)
+            print(f"Tabela {nome_tabela} carregada com sucesso.")
+        except Exception as e:
+            print(f"⚠️ Erro ao carregar o ficheiro {arquivo.name}: {e}")
+            print(f"A saltar {nome_tabela} e a continuar para o próximo ficheiro...")
+            continue # Faz o loop saltar para o próximo ficheiro sem quebrar o programa
 
     conn.close()
     print("Processo concluído.")
