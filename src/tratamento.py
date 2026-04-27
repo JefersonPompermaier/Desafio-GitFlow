@@ -1,3 +1,4 @@
+from typing import Any
 import sqlite3
 from pathlib import Path
 from datetime import datetime
@@ -11,7 +12,7 @@ SQL_DIR = Path(__file__).parent / "sql"
 
 # correção de encoding nos dados originais
 
-def limpeza_caracteres(texto):
+def limpeza_caracteres(texto: Any) -> Any:
     if not isinstance(texto, str):
         return texto
     mapa = {
@@ -26,7 +27,7 @@ def limpeza_caracteres(texto):
     return texto
 
 # padronização de datas, tentando múltiplos formatos
-def _parse_datas(series):
+def _parse_datas(series: pd.Series) -> pd.Series:
     datas = pd.to_datetime(series, format="%m/%d/%Y", errors="coerce")
     faltantes = datas.isna()
     if faltantes.any():
@@ -34,12 +35,12 @@ def _parse_datas(series):
     return datas
 
 # validação de registros órfãos
-def _carregar_sql(nome_arquivo):
+def _carregar_sql(nome_arquivo: str) ->str:
     caminho_sql = SQL_DIR / nome_arquivo
     return caminho_sql.read_text(encoding="utf-8")
 
 
-def _validar_orfaos(conn):
+def _validar_orfaos(conn: sqlite3.Connection) -> None:
     print("\n=== VALIDAÇÃO DE ÓRFÃOS ===")
     
     # Produtos em itens_pedido que não existem em produtos
@@ -59,7 +60,7 @@ def _validar_orfaos(conn):
     print(f"Clientes órfãos (em pedidos mas não em clientes): {orfaos_clientes}")
 
 # inserção de clientes desconhecidos para pedidos órfãos
-def _inserir_clientes_desconhecidos(conn):
+def _inserir_clientes_desconhecidos(conn: sqlite3.Connection) ->None:
     print("\nInserindo clientes desconhecidos...")
     
     cur = conn.cursor()
@@ -84,7 +85,7 @@ def _inserir_clientes_desconhecidos(conn):
         print("  Sem clientes desconhecidos para inserir")
 
 # conversão de tipos de dados para numeric
-def _converter_tipos_numericos(conn):
+def _converter_tipos_numericos(conn: sqlite3.Connection) -> None:
     print("\nConvertendo tipos de dados para numeric...")
 
     # Produtos: preco
@@ -120,7 +121,7 @@ def _converter_tipos_numericos(conn):
         print(f"  Erro ao converter itens_pedido.preco_unitario: {e}")
 
 # função principal de processamento dos dados silver
-def processar_silver():
+def processar_silver() -> None:
     print("Tratamento iniciado")
 
     if not DB_PATH.exists():
