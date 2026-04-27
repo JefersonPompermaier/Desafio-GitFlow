@@ -8,7 +8,7 @@ RAW_DIR = ROOT_DIR / "data" / "raw"
 PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 DB_PATH = PROCESSED_DIR / "delivery_database.db"
 
-def executar_ingestao():
+def executar_ingestao() -> None:
     # Garante que a pasta processed existe
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     
