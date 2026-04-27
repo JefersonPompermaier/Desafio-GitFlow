@@ -167,7 +167,7 @@ if col_cat:
 pedidos_unicos = df_master["id_pedido"].nunique()
 receita_total = df_master["receita_linha"].sum()
 itens_vendidos = len(df_master)
-ticket_medio = receita_total / itens_vendidos if itens_vendidos > 0 else 0
+ticket_medio = receita_total / pedidos_unicos if pedidos_unicos > 0 else 0
 
 m1, m2, m3, m4 = st.columns(4)
 with m1: renderizar_kpi("Volume de Pedidos", f"{pedidos_unicos:,.0f}".replace(",", "."))
