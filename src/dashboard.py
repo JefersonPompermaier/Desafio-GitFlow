@@ -4,6 +4,7 @@ from itertools import combinations
 from pathlib import Path
 
 import altair as alt
+from typing import Dict, Optional, List, Any
 import pandas as pd
 import streamlit as st
 
@@ -29,7 +30,7 @@ st.markdown("""
 # MOTOR DE DADOS
 # -----------------------------------------------------------------------------
 @st.cache_data(show_spinner=False)
-def extrair_dados():
+def extrair_dados() -> dict[str, pd.DataFrame] | None:
     if not DB_PATH.exists():
         return None
     
@@ -50,7 +51,7 @@ def extrair_dados():
     return tabelas
 
 @st.cache_data(show_spinner=False)
-def construir_modelo_analitico(dados):
+def construir_modelo_analitico(dados: Optional[Dict[str, pd.DataFrame]]) -> pd.DataFrame:
     if dados is None or dados["itens"].empty or dados["pedidos"].empty:
         return pd.DataFrame()
 
@@ -84,7 +85,7 @@ def construir_modelo_analitico(dados):
 
 
 @st.cache_data(show_spinner=False)
-def minerar_regras_associacao(df, min_support=2):
+def minerar_regras_associacao(df: pd.DataFrame, min_support: int=2) -> pd.DataFrame:
     col_prod = next((c for c in ["nome_produto", "produto", "descricao"] if c in df.columns), None)
     if not col_prod or df.empty:
         return pd.DataFrame()
@@ -120,7 +121,7 @@ def minerar_regras_associacao(df, min_support=2):
 # -----------------------------------------------------------------------------
 # COMPONENTES VISUAIS
 # -----------------------------------------------------------------------------
-def renderizar_kpi(titulo, valor, prefixo=""):
+def renderizar_kpi(titulo: str, valor: str, prefixo: str ="") -> None:
     html = f"""
     <div class="kpi-card">
         <div class="kpi-title">{titulo}</div>
