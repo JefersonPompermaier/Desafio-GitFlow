@@ -29,7 +29,7 @@ st.markdown("""
 # MOTOR DE DADOS
 # -----------------------------------------------------------------------------
 @st.cache_data(show_spinner=False)
-def extrair_dados():
+def extrair_dados(db_signature=None):
     if not DB_PATH.exists():
         return None
     
@@ -55,11 +55,6 @@ def construir_modelo_analitico(dados):
         return pd.DataFrame()
 
     df = dados["itens"].merge(dados["pedidos"], on="id_pedido", how="inner")
-    
-    col_status = next((c for c in ["status", "status_pedido", "situacao", "estado_pedido"] if c in df.columns), None)
-    if col_status:
-        termos_cancelamento = ["cancelado", "canceled", "cancelled"]
-        df = df[~df[col_status].astype(str).str.lower().isin(termos_cancelamento)]
     
     if not dados["produtos"].empty:
         df = df.merge(dados["produtos"], on="id_produto", how="left")
@@ -132,7 +127,8 @@ def renderizar_kpi(titulo, valor, prefixo=""):
 # -----------------------------------------------------------------------------
 # EXECUÇÃO PRINCIPAL
 # -----------------------------------------------------------------------------
-dados_brutos = extrair_dados()
+db_signature = DB_PATH.stat().st_mtime_ns if DB_PATH.exists() else None
+dados_brutos = extrair_dados(db_signature)
 if not dados_brutos:
     st.error(f"Falha de I/O: Banco de dados não localizado em {DB_PATH}")
     st.stop()
@@ -147,19 +143,38 @@ if df_master.empty:
     st.stop()
 
 # Filtros Globais
-col_filtros = st.columns(2)
+col_filtros = st.columns(3)
+
+# Filtro de Status / Faturamento
+col_status = next((c for c in ["status", "status_pedido", "situacao", "estado_pedido"] if c in df_master.columns), None)
+if col_status:
+    status_base = df_master[col_status].dropna().astype(str).str.strip()
+    status_disp = sorted(status_base.unique().tolist())
+    status_sel = col_filtros[0].multiselect(
+        "Faturamento (Status)",
+        options=status_disp,
+        default=status_disp,
+        help="Selecione um ou mais status para recalcular KPIs e análises.",
+        key="filtro_status_faturamento",
+    )
+    if status_sel:
+        df_master = df_master[df_master[col_status].astype(str).str.strip().isin(status_sel)]
+    
+    # Identificar se é "Todos" para o título dos KPIs
+    selecao_completa = len(status_sel) == len(status_disp) or len(status_sel) == 0
+    label_status = "Todos os status" if selecao_completa else ", ".join(status_sel)
 
 col_estado = next((c for c in ["estado", "uf"] if c in df_master.columns), None)
 if col_estado:
     estados_disp = sorted(df_master[col_estado].dropna().astype(str).unique())
-    estados_sel = col_filtros[0].multiselect("Estado", estados_disp, default=[])
+    estados_sel = col_filtros[1].multiselect("Estado", estados_disp, default=[])
     if estados_sel:
         df_master = df_master[df_master[col_estado].isin(estados_sel)]
 
 col_cat = next((c for c in ["categoria", "segmento"] if c in df_master.columns), None)
 if col_cat:
     cat_disp = sorted(df_master[col_cat].dropna().astype(str).unique())
-    cat_sel = col_filtros[1].multiselect("Categorias", cat_disp, default=[])
+    cat_sel = col_filtros[2].multiselect("Categorias", cat_disp, default=[])
     if cat_sel:
         df_master = df_master[df_master[col_cat].isin(cat_sel)]
 
@@ -169,9 +184,13 @@ receita_total = df_master["receita_linha"].sum()
 itens_vendidos = len(df_master)
 ticket_medio = receita_total / pedidos_unicos if pedidos_unicos > 0 else 0
 
+# Títulos dinâmicos baseados no filtro
+label_pedidos = f"Pedidos ({label_status})"
+label_receita = f"Receita {label_status}"
+
 m1, m2, m3, m4 = st.columns(4)
-with m1: renderizar_kpi("Volume de Pedidos", f"{pedidos_unicos:,.0f}".replace(",", "."))
-with m2: renderizar_kpi("Receita Bruta", f"{receita_total:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."), "R$ ")
+with m1: renderizar_kpi(label_pedidos, f"{pedidos_unicos:,.0f}".replace(",", "."))
+with m2: renderizar_kpi(label_receita, f"{receita_total:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."), "R$ ")
 with m3: renderizar_kpi("Ticket Médio", f"{ticket_medio:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."), "R$ ")
 with m4: renderizar_kpi("Itens por Cesta", f"{itens_vendidos / pedidos_unicos if pedidos_unicos else 0:.2f}")
 
